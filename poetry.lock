@@ -217,10 +217,18 @@ category = "dev"
 optional = false
 python-versions = ">=3.7"
 
+[[package]]
+name = "wget"
+version = "3.2"
+description = "pure python download utility"
+category = "main"
+optional = false
+python-versions = "*"
+
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "40a35b24edb43ac067cded2156b50016e1692dd01c3ea850c3de74b987686914"
+content-hash = "ebbf5f8ac71f445b5b5230b175a585296774891e24e81c029ddbb6f7a83526ce"
 
 [metadata.files]
 black = []
@@ -242,3 +250,4 @@ setuptools-scm = []
 six = []
 tomli = []
 typing-extensions = []
+wget = []

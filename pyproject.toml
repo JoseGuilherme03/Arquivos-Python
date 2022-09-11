@@ -7,6 +7,7 @@ authors = ["Jose Guilherme Fernandes"]
 [tool.poetry.dependencies]
 python = "^3.8"
 matplotlib = "^3.5.3"
+wget = "^3.2"
 
 [tool.poetry.dev-dependencies]
 black = {version = "^22.6.0", allow-prereleases = true}
