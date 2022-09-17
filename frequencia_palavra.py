@@ -39,7 +39,8 @@ plt.title('Ranking das letras que mais aparece no livro')
 plt.bar(rotulos,valores)
 plt.xlabel('Letras')
 plt.ylabel('Frequência')
+
 # adiciona um rótulo centralizado no topo da barra
-for letra, frequencia in frequencia_letras.items():
-    plt.text(letra,frequencia, str(frequencia), ha='center', va='bottom')  
+for i, v in enumerate(valores):
+    plt.text(i, v, str(v), color='red', fontweight='bold',horizontalalignment='center',verticalalignment='bottom')
 plt.show()
