@@ -20,6 +20,7 @@ with open('livro.txt') as arquivo:
 # filtra o livro, tirando os caracteres especias usando compreensão de lista
 texto_filtrado = ''.join([letra for letra in texto if letra.isalpha() or letra == ' '])
 
+
 # O metódo abaixo filtra do mesmo jeito
 """texto_filtrado = ''
 for letra in texto:
@@ -43,4 +44,5 @@ plt.ylabel('Frequência')
 # adiciona um rótulo centralizado no topo da barra
 for i, v in enumerate(valores):
     plt.text(i, v, str(v), color='red', fontweight='bold',horizontalalignment='center',verticalalignment='bottom')
+    
 plt.show()
