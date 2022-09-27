@@ -7,7 +7,7 @@
 - Clone o repositório:
 
 ```bash
-https://github.com/JoseGuilherme03/read_book.git
+git clone https://github.com/JoseGuilherme03/read_book.git
 ```
 
 - Entre na pasta:
