@@ -28,12 +28,6 @@ poetry install
 poetry shell
 ```
 
-- Entre na pasta do projeto:
-
-```bash
-cd read_book
-``` 
-
 - Execute o script:
 
 ```bash
