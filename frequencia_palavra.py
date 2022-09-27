@@ -1,4 +1,5 @@
 from collections import Counter
+from turtle import color
 import wget
 import os
 import matplotlib.pyplot as plt
@@ -43,6 +44,6 @@ plt.ylabel('Frequência')
 
 # adiciona um rótulo centralizado no topo da barra
 for i, v in enumerate(valores):
-    plt.text(i, v, str(v), color='red', fontweight='bold',horizontalalignment='center',verticalalignment='bottom')
+    plt.text(i, v, str(v), fontweight='bold',horizontalalignment='center',verticalalignment='bottom',color='red')
     
 plt.show()
