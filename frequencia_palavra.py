@@ -13,7 +13,7 @@ else:
 
 
 # Abre e fecha o arquivo e adiciona todo o livro a variavel texto em letra minuscula
-with open('livro.txt') as arquivo:
+with open('livro.txt',encoding="utf-8") as arquivo:
     texto = arquivo.read().lower()
 
 
