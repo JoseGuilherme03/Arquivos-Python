@@ -1,2 +1,2 @@
-# Arquivos-Python
-Trabalho sobre arquivos feito no curso de BSI, utiliziando o ambiente virtual poetry
+# frequência de letras no livro
+Programa que baixa um livro e verifica com que frequência as letras aparecem
