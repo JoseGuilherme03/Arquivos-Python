@@ -22,14 +22,6 @@ with open('livro.txt',encoding="utf-8") as arquivo:
 texto_filtrado = ''.join([letra for letra in texto if letra.isalpha() or letra == ' '])
 
 
-# O metódo abaixo filtra do mesmo jeito
-"""texto_filtrado = ''
-for letra in texto:
-    if letra.isalpha() or letra == ' ':
-        texto_filtrado += letra
-print(texto_filtrado)"""
-
-
 # Cria um dicionário com a frequência que aparece cada letra no texto
 letras = [l for l in texto_filtrado if l.isalpha()]
 frequencia_letras = Counter(letras)
