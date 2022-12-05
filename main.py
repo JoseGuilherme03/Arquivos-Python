@@ -26,7 +26,6 @@ def frequencia_letra():
     return frequencia_letras
 
 
-
 def grafico_frequencia_letras():
     # Cria um gráfico exibindo a letra e com que frequência ela aparece no texto
     rotulos, valores = zip(*frequencia_letra().most_common(5))
